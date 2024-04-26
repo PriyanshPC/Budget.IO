@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+input.error{
+  border : solid darkred;
+}
+input.valid{
+  border : solid darkgreen;
+}
+.validator{
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left:1%;
+  border-radius: 50px;
+}
+.redText{
+  text-align: right;
+  color: darkred;
+}
+.yellowText{
+  color:yellow;
+}
+
+
+.frmdiv{
+  margin:10% auto;
+  width: 80%;
+  color: whitesmoke;
+  text-shadow: none;
+}
+.frmdiv h1{
+  font-family: Bebas Neue, sans-serif ;
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 2px;
+  margin:10%;
+}
+.frmdiv p{
+  font-family: Bebas Neue, sans-serif ;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+#UserPage, #NotificationPage, #MenuPage, #DeleteExpensePage, #AddExpensePage, #ExpenseReportPage, #VisualExpensePage, #SettingsPage, #AddIncomePage{
+  font-family: Poppins, sans-serif;
+  height: 100vh;
+  background-color: white;
+}
+#HomePage, #LoginPage ,#RegisterPage{
+  height : 100vh;
+  background-color: #5e1a1a;
+}
+
+
+/*Home Page Css*/
+#HomePage .title{
+  width: fit-content;
+  font-family: Bebas Neue, sans-serif ;
+  text-shadow: none;
+  font-weight: 500;
+  margin: 10% auto;
+  white-space: nowrap;
+  letter-spacing: 2px;
+}
+#HomePage .title h3{
+  color : #A1A1A1;
+  font-family: Bebas Neue, sans-serif ;
+  font-style: normal;
+  font-size: 24px;
+
+}
+#HomePage .title h1{
+  color: whitesmoke;
+  font-family: Bebas Neue, sans-serif ;
+  font-style: normal;
+  font-size: 80px;
+
+}
+#HomePage .content{
+  height: 55%;
+  width : 100%;
+  background-color: whitesmoke;
+  border-radius: 25px 25px 0 0;
+  padding: 42px 52px;
+}
+#HomePage .content table{
+  width: fit-content;
+  margin: auto;
+}
+#HomePage .content img{
+  height: 100px;
+  aspect-ratio: 1/1;
+  margin-top:10px;
+  margin-right: 10px;
+}
+#HomePage .content h3{
+  font-family: Poppins , sans-serif;
+  font-weight: 800;
+  margin:10px 0 0 0;
+  padding:0;
+}
+#HomePage .content p{
+  font-family: Poppins , sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin:0;
+}
+#btnSignin{
+  margin: 0 auto;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px 80px;
+  background-color: #5e1a1a;
+  border-radius: 25px;
+  font-family: Bebas Neue, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-shadow: none;
+  letter-spacing: 2px;
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.83));
+}
+
+/*Login and Registration Page*/
+#LoginPage .logo{
+  margin: auto;
+  width: fit-content;
+  border-radius: 50%;
+}
+#LoginPage .logo img{
+  height: 400px;
+  aspect-ratio: 1/1;
+}
+#LoginPage .frmdiv{
+  margin : auto;
+}
+#frmLogin label, #frmRegister label{
+  font-family: Bebas Neue, sans-serif ;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+#frmLogin button, #frmRegister button{
+  background-color: #0e6d4b;
+  color: white;
+  text-decoration: none;
+  text-shadow: none;
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 0.15vw  ;
+  border-color: transparent;
+}
+
+/*UserPage*/
+#UserPage header,#NotificationPage header, #MenuPage header{
+  padding: 5% 5% 3% 5%;
+  background-color: #5e1a1a;
+}
+#UserPage header h1, #NotificationPage header h1, #MenuPage header h1{
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+#UserPage header img, #NotificationPage header img, #MenuPage header img{
+  height: 24px;
+}
+#btnAddExpenses{
+  background-color: #5e1a1a;
+  color: white;
+  text-decoration: none;
+  text-shadow: none;
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 0.15vw  ;
+  border-color: transparent;
+}
+#UserPage section .card-details{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5px;
+}
+#UserPage section .table{
+  margin: auto ;
+  width: 90%;
+}
+#MenuPage .container svg{
+  margin-left: 10px;
+  display: inline;
+  padding-bottom: 5px;
+}
+#MenuPage .container h3 {
+  padding-left: 10px;
+  display: inline;
+}
+
+/*Notification */
+#NotificationPage section h3{
+  text-align: center;
+}
+/*Add Expense*/
+#AddExpensePage header{
+  padding: 5% 5% 3% 5%;
+  background-color: #5e1a1a;
+}
+#AddExpensePage header h1{
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+#AddExpensePage header img{
+  height: 24px;
+}
+#AddExpensePage .frmdiv{
+  color: #5e1a1a;
+  margin: auto;
+  width: 90%;
+  text-shadow: none;
+}
+#AddExpensePage .frmdiv h1{
+  font-family: Bebas Neue, sans-serif ;
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 2px;
+  margin: 5% 0;
+}
+#frmAddExpense label{
+  font-family: Bebas Neue, sans-serif ;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+#frmAddExpense button{
+  background-color: #5e1a1a;
+  color: white;
+  text-decoration: none;
+  text-shadow: none;
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 0.15vw  ;
+  border-color: transparent;
+}
+
+/*Delete Expense*/
+#DeleteExpensePage header{
+  padding: 5% 5% 3% 5%;
+  background-color: #5e1a1a;
+}
+#DeleteExpensePage header h1{
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+#DeleteExpensePage header img{
+  height: 24px;
+}
+#DeleteExpensePage section h1{
+  color: #5e1a1a;
+  font-family: Bebas Neue, sans-serif ;
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 2px;
+  margin: 5% 0;
+}
+#DeleteExpensePage section .table{
+  margin: auto ;
+  width: 90%;
+}
+#DeleteExpensePage section .button{
+  background-color: #5e1a1a;
+  color: white;
+  text-decoration: none;
+  text-shadow: none;
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 0.15vw  ;
+  border-color: transparent;
+}
+#DeleteExpensePage section .btndiv{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+}
+
+/*Add Income*/
+#AddIncomePage header{
+  padding: 5% 5% 3% 5%;
+  background-color: #5e1a1a;
+}
+#AddIncomePage header h1{
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+#AddIncomePage header img{
+  height: 24px;
+}
+#AddIncomePage .frmdiv{
+  color: #5e1a1a;
+  margin: auto;
+  width: 90%;
+  text-shadow: none;
+}
+#AddIncomePage .frmdiv h1{
+  font-family: Bebas Neue, sans-serif ;
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 2px;
+  margin: 5% 0;
+}
+#frmAddIncome label{
+  font-family: Bebas Neue, sans-serif ;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+#frmAddIncome button{
+  background-color: #5e1a1a;
+  color: white;
+  text-decoration: none;
+  text-shadow: none;
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 0.15vw  ;
+  border-color: transparent;
+}
+
+/*Expense Report Page*/
+#ExpenseReportPage header{
+  padding: 5% 5% 3% 5%;
+  background-color: #5e1a1a;
+}
+#ExpenseReportPage header h1{
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+#ExpenseReportPage header img{
+  height: 24px;
+}
+#ExpenseReportPage label{
+  font-family: Bebas Neue, sans-serif ;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #5e1a1a;
+  text-shadow: none;
+}
+#expReport .card .grid-it{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+}
+
+/*Visual Expense*/
+#VisualExpensePage header{
+  padding: 5% 5% 3% 5%;
+  background-color: #5e1a1a;
+}
+#VisualExpensePage header h1{
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+#VisualExpensePage header img{
+  height: 24px;
+}
+#VisualExpensePage label{
+  font-family: Bebas Neue, sans-serif ;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #5e1a1a;
+  text-shadow: none;
+}
+
+/*Settings Page*/
+#SettingsPage header{
+  padding: 5% 5% 3% 5%;
+  background-color: #5e1a1a;
+}
+#SettingsPage header h1{
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+#SettingsPage header img{
+  height: 24px;
+}
+#SettingsPage .frmdiv{
+  color: #5e1a1a;
+  margin: auto;
+  width: 90%;
+  text-shadow: none;
+}
+#SettingsPage .frmdiv h1{
+  font-family: Bebas Neue, sans-serif ;
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 2px;
+  margin: 5% 0;
+}
+#SettingsPage button{
+  background-color: #5e1a1a;
+  color: white;
+  text-decoration: none;
+  text-shadow: none;
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 0.15vw  ;
+  border-color: transparent;
+}
+#frmUpdateUser label{
+  font-family: Bebas Neue, sans-serif ;
+  font-size: 20px;
+  letter-spacing: 1px;
+}

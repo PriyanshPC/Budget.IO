@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26bc3bac-dbb6-49b0-86bb-d8fe7f975e15" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2fAH1aEaTjXuSQZtvGE1kcttkNV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/priya/Desktop/GitHub Projects/Budget.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26bc3bac-dbb6-49b0-86bb-d8fe7f975e15" name="Changes" comment="" />
+      <created>1713236747293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713236747293</updated>
+      <workItem from="1713236748362" duration="10164000" />
+      <workItem from="1713282018774" duration="15922000" />
+      <workItem from="1713311077894" duration="18489000" />
+      <workItem from="1713415407729" duration="671000" />
+      <workItem from="1713465994956" duration="54000" />
+      <workItem from="1713476501266" duration="1606000" />
+      <workItem from="1713499470870" duration="5756000" />
+      <workItem from="1713537431868" duration="23194000" />
+      <workItem from="1713562129888" duration="83000" />
+      <workItem from="1713562283782" duration="1441000" />
+      <workItem from="1713563964453" duration="149000" />
+      <workItem from="1713564661018" duration="5383000" />
+      <workItem from="1713741745528" duration="5028000" />
+      <workItem from="1713747337113" duration="19876000" />
+      <workItem from="1713794025346" duration="1995000" />
+      <workItem from="1713796932477" duration="31000" />
+      <workItem from="1713797953069" duration="455000" />
+      <workItem from="1713800238042" duration="265000" />
+      <workItem from="1714159844404" duration="118000" />
+      <workItem from="1714160758475" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
